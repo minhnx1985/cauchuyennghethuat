@@ -70,10 +70,19 @@ strong {
 }
 
 .brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
   font-size: 0.88rem;
   font-weight: 800;
   text-decoration: none;
   text-transform: uppercase;
+}
+
+.brand img {
+  width: 42px;
+  height: auto;
+  flex: 0 0 auto;
 }
 
 .nav-links {
@@ -575,6 +584,34 @@ details p {
   margin: 0;
   padding: 0 20px 20px;
   color: var(--muted);
+}
+
+.site-footer {
+  width: min(var(--max), calc(100% - 36px));
+  margin: 0 auto;
+  padding: 32px 0 38px;
+  border-top: 1px solid var(--line);
+  color: var(--muted);
+  font-size: 0.94rem;
+}
+
+.site-footer p {
+  margin-bottom: 10px;
+  color: var(--ink);
+  font-weight: 900;
+}
+
+.site-footer address {
+  display: grid;
+  gap: 6px;
+  font-style: normal;
+}
+
+.site-footer a {
+  color: var(--ink);
+  font-weight: 800;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
 }
 
 .sticky-cta {
