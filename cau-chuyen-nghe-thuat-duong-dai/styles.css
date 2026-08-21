@@ -191,7 +191,7 @@ h3 {
 .text-flow,
 .section-heading p,
 .talk-panel p,
-.preorder-card p {
+.purchase-card p {
   color: var(--muted);
   font-size: clamp(1rem, 1.25vw, 1.1rem);
 }
@@ -231,7 +231,7 @@ h3 {
 }
 
 .price-panel span,
-.preorder-action span {
+.purchase-action span {
   display: block;
   color: var(--muted);
   font-size: 0.82rem;
@@ -334,7 +334,7 @@ h3 {
 
 .proof-list,
 .event-card,
-.preorder-action,
+.purchase-action,
 .audience-grid article {
   border: 1px solid var(--line);
   border-radius: 8px;
@@ -481,7 +481,7 @@ blockquote cite {
 }
 
 .talk-panel,
-.preorder-card {
+.purchase-card {
   display: grid;
   grid-template-columns: minmax(0, 1fr) minmax(280px, 0.42fr);
   gap: clamp(28px, 5vw, 62px);
@@ -499,7 +499,7 @@ blockquote cite {
 }
 
 .event-card,
-.preorder-action {
+.purchase-action {
   padding: clamp(18px, 3vw, 28px);
 }
 
@@ -530,32 +530,68 @@ dd {
   font-weight: 800;
 }
 
-.preorder-card {
+.purchase-card {
   background: linear-gradient(135deg, rgba(255, 210, 223, 0.58), rgba(196, 236, 255, 0.58)), rgba(255, 250, 244, 0.86);
 }
 
-.preorder-action {
+.purchase-action {
   align-self: start;
   background: var(--ink);
   color: #fffdf8;
 }
 
-.preorder-action span {
+.purchase-action span {
   color: rgba(255, 255, 255, 0.72);
 }
 
-.preorder-action strong {
+.purchase-action strong {
   display: block;
   margin: 4px 0 18px;
   font-size: clamp(2rem, 4vw, 3.4rem);
   line-height: 1;
 }
 
-.preorder-action .button-primary {
+.purchase-action .button-primary {
   width: 100%;
   border-color: #fffdf8;
   background: #fffdf8;
   color: var(--ink);
+}
+
+.purchase-action .button-secondary {
+  width: 100%;
+  margin-top: 10px;
+  border-color: rgba(255, 255, 255, 0.48);
+  background: transparent;
+  color: #fffdf8;
+}
+
+.button-disabled {
+  cursor: not-allowed;
+  opacity: 0.72;
+}
+
+.button-disabled:hover,
+.button-disabled:focus-visible {
+  transform: none;
+  box-shadow: none;
+}
+
+.purchase-gallery {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+  margin-top: 24px;
+}
+
+.purchase-gallery img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: rgba(255, 250, 244, 0.72);
+  box-shadow: 0 12px 28px rgba(21, 19, 21, 0.12);
 }
 
 .trust-note {
@@ -644,7 +680,7 @@ details p {
   .matter-section,
   .author-section,
   .talk-panel,
-  .preorder-card {
+  .purchase-card {
     grid-template-columns: 1fr;
   }
 
@@ -730,6 +766,10 @@ details p {
   }
 
   .audience-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .purchase-gallery {
     grid-template-columns: 1fr;
   }
 

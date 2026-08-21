@@ -7,8 +7,8 @@
 **Tít phụ:** Một dẫn nhập sáng rõ vào nghệ thuật đương đại toàn cầu  
 **Badge:** Best Art Books of 2020 - Sunday Times  
 **Giá bìa:** 575.000đ  
-**Giá pre-order:** 460.000đ  
-**Ưu đãi:** Giảm 20% trong thời gian đặt trước  
+**Giá Nhã Nam:** 460.000đ  
+**Ưu đãi:** Giảm 20%  
 **Talk:** Giữa tháng 8/2026, phối hợp với Trường Khoa học liên ngành và Nghệ thuật
 
 ---
@@ -33,12 +33,12 @@ Nếu vẫn đọc nghệ thuật bằng thói quen của tranh treo tường v�
 
 ### Price module
 - Giá bìa: **575.000đ**
-- Giá đặt trước: **460.000đ**
-- Ưu đãi pre-order: **giảm 20%**
+- Giá Nhã Nam: **460.000đ**
+- Ưu đãi: **giảm 20%**
 
 ### CTA
-- **Đặt trước 460.000đ**
-- **Xem ruột sách**
+- **Đặt mua**
+- **Đọc thử**
 
 ### Visual note
 Hero nên dùng bìa sách bản tiếng Việt làm visual chính. Background có thể lấy tinh thần pastel/gradient của bìa, nhưng phần chữ và CTA cần đủ tương phản. Không nên đặt quá nhiều artwork phụ trong hero vì bìa đã có hệ typography mạnh.
@@ -81,7 +81,7 @@ Sau vài chương, người đọc bắt đầu có một bộ từ vựng mới
 ## 4. INTERIOR PREVIEW
 
 ### Heading
-**Xem trước ruột sách trước khi đặt mua.**
+**ĐỌC THỬ TRƯỚC KHI QUYẾT ĐỊNH ĐẶT MUA**
 
 ### Body copy
 Nếu bạn còn ngại một cuốn sách nghệ thuật sẽ quá dày đặc thuật ngữ, hãy bắt đầu từ mục lục, vài trang mở đầu và cách sách đặt chữ cạnh hình. Những trang xem trước này giúp bạn hình dung nhịp đọc, lượng hình ảnh và cách Tony Godfrey dẫn người đọc vào từng vấn đề.
@@ -177,17 +177,16 @@ Thời gian, địa điểm và khách mời đang được cập nhật. Bạn 
 ## 9. PRE-ORDER OFFER
 
 ### Heading
-**Đặt trước Câu chuyện nghệ thuật đương đại với ưu đãi 20%.**
+**ĐẶT MUA Câu chuyện nghệ thuật đương đại**
 
 ### Body copy
-Giá bìa: **575.000đ**  
-Giá pre-order: **460.000đ**  
-Ưu đãi dự kiến áp dụng đến hết ngày **15/8/2026**.
+Cuốn sách hiện đã có trên website Nhã Nam. Bạn có thể đặt mua trực tiếp tại Nhã Nam hoặc chờ link Shopee được cập nhật.
 
-Nếu bạn đang tìm một cuốn sách nền về nghệ thuật đương đại, hoặc một món quà nghiêm túc cho người làm sáng tạo, đây là thời điểm phù hợp để đặt trước với mức giá tốt hơn.
+Link Nhã Nam: https://nhanam.vn/cau-chuyen-nghe-thuat-duong-dai  
+Link Shopee: đang cập nhật.
 
 ### CTA
-**Đặt trước 460.000đ**
+**Mua tại Nhã Nam**
 
 ---
 
@@ -222,7 +221,7 @@ Phù hợp nếu người nhận quan tâm đến nghệ thuật, thiết kế, 
 Câu chuyện nghệ thuật đương đại | Tony Godfrey | Nhã Nam
 
 ### Meta description
-Đặt trước Câu chuyện nghệ thuật đương đại của Tony Godfrey với ưu đãi 20%. Một dẫn nhập sáng rõ vào nghệ thuật đương đại toàn cầu từ sau thập niên 1960.
+Đặt mua Câu chuyện nghệ thuật đương đại của Tony Godfrey. Một dẫn nhập sáng rõ vào nghệ thuật đương đại toàn cầu từ sau thập niên 1960.
 
 ### OpenGraph title
 Thế nào là nghệ thuật đương đại?
