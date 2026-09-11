@@ -180,13 +180,14 @@ Thời gian, địa điểm và khách mời đang được cập nhật. Bạn 
 **ĐẶT MUA Câu chuyện nghệ thuật đương đại**
 
 ### Body copy
-Cuốn sách hiện đã có trên website Nhã Nam. Bạn có thể đặt mua trực tiếp tại Nhã Nam hoặc chờ link Shopee được cập nhật.
+Cuốn sách hiện đã có trên website Nhã Nam. Bạn có thể đặt mua trực tiếp tại Nhã Nam hoặc mua qua Shopee.
 
 Link Nhã Nam: https://nhanam.vn/cau-chuyen-nghe-thuat-duong-dai  
-Link Shopee: đang cập nhật.
+Link Shopee: https://shopee.vn/S%C3%A1ch-C%C3%A2u-chuy%E1%BB%87n-ngh%E1%BB%87-thu%E1%BA%ADt-%C4%91%C6%B0%C6%A1ng-%C4%91%E1%BA%A1i-(Tony-Godfrey)-(Nh%C3%A3-Nam)-i.175767544.48066020476?extraParams=%7B%22display_model_id%22%3A406364528387%2C%22model_selection_logic%22%3A3%7D.
 
 ### CTA
 **Mua tại Nhã Nam**
+**Mua trên Shopee**
 
 ---
 
