@@ -20,6 +20,7 @@
 
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 70px;
 }
 
 body {
@@ -164,7 +165,7 @@ h2 {
 h1 {
   max-width: 860px;
   margin-bottom: 22px;
-  font-size: clamp(3.6rem, 10vw, 9.25rem);
+  font-size: clamp(3.6rem, 7.8vw, 7rem);
 }
 
 h2 {
@@ -706,6 +707,8 @@ details p {
 }
 
 @media (max-width: 760px) {
+  html { scroll-padding-top: 100px; }
+
   body {
     padding-bottom: 86px;
   }
@@ -786,4 +789,42 @@ details p {
   .button {
     transition: none;
   }
+}
+
+/* Talk: event information and speaker portraits. */
+.talk-panel { align-items: start; }
+.talk-intro h2 { font-size: clamp(2rem, 3.6vw, 3.35rem); }
+.talk-topics { padding-left: 1.2em; margin: 22px 0 0; }
+.talk-topics li + li { margin-top: 10px; }
+.event-card .event-address { margin-top: 10px; font-size: .94rem; font-weight: 500; }
+.event-card .button { width: 100%; }
+.event-source { display: block; margin-top: 16px; font-size: .82rem; text-underline-offset: 4px; }
+.talk-speakers { grid-column: 1 / -1; padding-top: 32px; border-top: 1px solid var(--line); }
+.talk-speakers > h3 { margin: 0 0 30px; text-align: center; font-size: 1.5rem; }
+.speaker-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 32px; }
+.speaker { text-align: center; }
+.speaker-portrait { display: block; width: clamp(140px, 16vw, 190px); height: auto; aspect-ratio: 1; object-fit: cover; object-position: center; border-radius: 50%; margin: 0 auto 22px; border: 4px solid var(--paper, #fffaf4); outline: 1px solid var(--line); }
+.speaker-portrait-son { object-position: center 22%; }
+.talk-panel .speaker-role { margin: 0 0 8px; font-size: .76rem; font-weight: 800; line-height: 1.5; color: var(--muted); }
+.speaker h4 { margin: 0 0 12px; font-size: 1.28rem; line-height: 1.3; }
+.talk-panel .speaker > p:last-child { margin: 0 auto; max-width: 32ch; font-size: .94rem; line-height: 1.7; }
+.talk-panel .speaker-credits { margin: 30px 0 0; text-align: center; color: var(--muted); font-size: .72rem; }
+.speaker-credits a { text-underline-offset: 3px; }
+@media (max-width: 760px) {
+  .speaker-grid { grid-template-columns: 1fr; gap: 36px; }
+  .speaker-portrait { width: 168px; }
+}
+/* Small text-fit adjustments for the editorial copy. */
+.hero-hook p + p { margin-top: 16px; }
+.audience-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.author-endorsement { font-size: .94rem; }
+.purchase-preview { display: block; margin-top: 16px; text-align: center; text-underline-offset: 4px; }
+.purchase-action .book-format { color: var(--paper); font-size: .94rem; }
+.section-heading h2, .purchase-card h2 { font-size: clamp(2.1rem, 4.2vw, 4.4rem); line-height: 1.06; }
+@media (max-width: 980px) {
+  .audience-grid { grid-template-columns: 1fr; }
+}
+@media (max-width: 760px) {
+  h1 { font-size: clamp(2.75rem, 12vw, 4.5rem); line-height: 1.03; }
+  .section-heading h2, .purchase-card h2 { font-size: clamp(1.85rem, 8vw, 2.6rem); }
 }
